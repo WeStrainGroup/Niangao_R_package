@@ -201,7 +201,7 @@ niangao <- function(file_path) {
     # 返回结果
     results <- list(
       result_table = result_clean,
-      clean_seq = dnastring_set
+      dna_string_set = dnastring_set
     )
 
     print("All files were successfully processed!")
